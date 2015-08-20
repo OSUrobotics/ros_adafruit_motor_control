@@ -16,3 +16,4 @@ if __name__ == "__main__":
 	windup_srv = rospy.ServiceProxy('windup', Empty)
 	
 	windup(windup_srv)	#call this to windup.
+	sys.exit()
